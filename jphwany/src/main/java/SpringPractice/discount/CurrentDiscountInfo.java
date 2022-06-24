@@ -20,4 +20,3 @@ public class CurrentDiscountInfo implements DiscountInfo {
         return 0;
     }
 }
-//test
