@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="05da566f-912d-4aec-870f-d8f62bd02b0f" name="Changes" comment="Spring Framework practice">
+      <change beforePath="$PROJECT_DIR$/../jphwany/.gradle/7.4.1/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/.gradle/7.4.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/.gradle/7.4.1/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/.gradle/7.4.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/.gradle/7.4.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/.gradle/7.4.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/.gradle/7.4.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/build/classes/java/main/com/SpringPractice/jphwany/AppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/build/classes/java/main/com/SpringPractice/jphwany/JphwanyApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/build/classes/java/main/com/SpringPractice/jphwany/Order/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/build/classes/java/main/com/SpringPractice/jphwany/Order/OrderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/build/classes/java/main/com/SpringPractice/jphwany/Order/OrderServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/build/classes/java/main/com/SpringPractice/jphwany/OrderApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/build/classes/java/main/com/SpringPractice/jphwany/SingletonApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/build/classes/java/main/com/SpringPractice/jphwany/UserApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/build/classes/java/main/com/SpringPractice/jphwany/discount/CurrentDiscountInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/build/classes/java/main/com/SpringPractice/jphwany/discount/DiscountInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/build/classes/java/main/com/SpringPractice/jphwany/discount/RateDiscountInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/build/classes/java/main/com/SpringPractice/jphwany/singleton/SingletonService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/build/classes/java/main/com/SpringPractice/jphwany/user/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/build/classes/java/main/com/SpringPractice/jphwany/user/UserGrade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/build/classes/java/main/com/SpringPractice/jphwany/user/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/build/classes/java/main/com/SpringPractice/jphwany/user/UserRepositoryImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/build/classes/java/main/com/SpringPractice/jphwany/user/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/build/classes/java/main/com/SpringPractice/jphwany/user/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/build/resources/main/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/src/main/java/SpringPractice/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/src/main/java/SpringPractice/JphwanyApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/src/main/java/SpringPractice/Order/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/src/main/java/SpringPractice/Order/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/src/main/java/SpringPractice/Order/OrderServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/src/main/java/SpringPractice/OrderApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/src/main/java/SpringPractice/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/src/main/java/SpringPractice/SingletonApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/src/main/java/SpringPractice/UserApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/src/main/java/SpringPractice/discount/CurrentDiscountInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/src/main/java/SpringPractice/discount/DiscountInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/src/main/java/SpringPractice/discount/RateDiscountInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/src/main/java/SpringPractice/singleton/SingletonService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/src/main/java/SpringPractice/user/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/src/main/java/SpringPractice/user/UserGrade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/src/main/java/SpringPractice/user/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/src/main/java/SpringPractice/user/UserRepositoryImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/src/main/java/SpringPractice/user/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/src/main/java/SpringPractice/user/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany/src/test/java/com/SpringPractice/jphwany/JphwanyApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/.gradle/7.4.1/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/.gradle/7.4.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/.gradle/7.4.1/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/.gradle/7.4.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/.gradle/7.4.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/.gradle/7.4.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/.gradle/7.4.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/build/classes/java/main/com/springMvc/practice/jphwany2/Jphwany2Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/build/classes/java/main/com/springMvc/practice/jphwany2/coffee/CoffeeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/build/classes/java/main/com/springMvc/practice/jphwany2/member/MemberController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/build/classes/java/main/com/springMvc/practice/jphwany2/order/OrderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/build/resources/main/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/src/main/java/com/SpringMVC/Practice/Jphwany2Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/src/main/java/com/SpringMVC/Practice/coffee/CoffeeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/src/main/java/com/SpringMVC/Practice/member/MemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/src/main/java/com/SpringMVC/Practice/order/OrderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jphwany2/src/test/java/com/springMvc/practice/jphwany2/Jphwany2ApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jphwany" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jphwany" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="jphwany" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2B1GSZVem6BtSygvvs3nuhgu11S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/82102/IdeaProjects/Spring-boot/springframework-basic1/build.gradle"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05da566f-912d-4aec-870f-d8f62bd02b0f" name="Changes" comment="" />
+      <created>1656066181106</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656066181106</updated>
+    </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1656067305317</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656067305317</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Spring Framework practice">
+      <created>1656067369484</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656067369484</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <MESSAGE value="Spring Framework practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring Framework practice" />
+  </component>
+</project>
