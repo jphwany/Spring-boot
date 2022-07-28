@@ -1,4 +1,4 @@
-package com.jphwany.springsecurity.config.auth;
+package com.jphwany.springsecurity.auth;
 
 
 import com.jphwany.springsecurity.model.Member;
