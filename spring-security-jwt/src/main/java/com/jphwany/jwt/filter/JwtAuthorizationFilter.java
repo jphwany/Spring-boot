@@ -36,7 +36,7 @@ public class JwtAuthorizationFilter extends BasicAuthenticationFilter {
         if(jwtHeader == null || !jwtHeader.startsWith("Bearer")) {
             chain.doFilter(request, response);
             return;
-        }
+        } // jwtHeader가 비어있거나 Bearer로 시작하지 않으면, 다음 필터 실행 후 넘겨라 라는 의미
 
         String jwtToken = jwtHeader.replace("Bearer ", "");
 
@@ -48,7 +48,7 @@ public class JwtAuthorizationFilter extends BasicAuthenticationFilter {
             PrincipalDetails principalDetails = new PrincipalDetails(memberEntity);
             Authentication authentication = new UsernamePasswordAuthenticationToken(principalDetails, null, principalDetails.getAuthorities());
             SecurityContextHolder.getContext().setAuthentication(authentication);
-
+            // 인증 과정
             chain.doFilter(request, response);
         }
         super.doFilterInternal(request, response, chain);

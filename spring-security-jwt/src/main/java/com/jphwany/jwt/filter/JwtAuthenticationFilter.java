@@ -46,8 +46,8 @@ public class JwtAuthenticationFilter extends UsernamePasswordAuthenticationFilte
 //  jwt로 로그인 처리하기 위함
 
         try {
-            ObjectMapper om = new ObjectMapper();
-            Member member = om.readValue(request.getInputStream(), Member.class);
+            ObjectMapper om = new ObjectMapper(); // json 데이터를 파싱하기 위함
+            Member member = om.readValue(request.getInputStream(), Member.class); // Member 클래스와 비교
 
             UsernamePasswordAuthenticationToken authenticationToken = new UsernamePasswordAuthenticationToken(member.getUsername(), member.getPassword());
 
@@ -64,16 +64,17 @@ public class JwtAuthenticationFilter extends UsernamePasswordAuthenticationFilte
     @Override
     protected void successfulAuthentication(HttpServletRequest request, HttpServletResponse response, FilterChain chain, Authentication authResult) throws IOException, ServletException {
 
-        System.out.println("successfulAuthentication");
+        System.out.println("인증 성공");
         PrincipalDetails principalDetails = (PrincipalDetails) authResult.getPrincipal();
 
         String jwtToken = JWT.create()
-                .withSubject("cos jwt token")
-                .withExpiresAt(new Date(System.currentTimeMillis() + (60 * 1000 * 10)))
-                .withClaim("id", principalDetails.getMember().getId())
-                .withClaim("username", principalDetails.getMember().getUsername())
-                .sign(Algorithm.HMAC512("cos_jwt_token"));
-        response.addHeader("Authorization", "Bearer " + jwtToken);
+                .withSubject("cos jwt token") // 토큰 이름
+                .withExpiresAt(new Date(System.currentTimeMillis() + (60 * 1000 * 10))) // 유효기간 설정 10분
+                .withClaim("id", principalDetails.getMember().getId()) // 페이로드에 담긴 정보들을 설정
+                .withClaim("username", principalDetails.getMember().getUsername()) // 페이로드에 담긴 정보들을 설정
+                .sign(Algorithm.HMAC512("cos_jwt_token")); // 저 값을 가지고 있어야 해석할 수 있음
+        response.addHeader("Authorization", "Bearer " + jwtToken); // 헤더에 더해줌
+        // "Bearer " 띄어쓰기 한 후 토큰 값 붙여주는 형식
     }
 }
 /*
